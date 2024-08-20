@@ -1,12 +1,12 @@
 ### nosql-challenge
 # *Eat Safe, Love*
 This challenge has us as a data analyst contracted by the editors of a food magazine, *Eat Safe, Love*, to evaluate some of the ratings data in order to help their journalists and food critics decide where to focus future articles by analyzing food hygiene ratings of various establishments across the United Kingdom from the UK Food Standards Agency.
-## Database Manipulation: [NoSQL_setup.ipynb](NoSQL_setup.ipynb)
+### Database Manipulation: [NoSQL_setup.ipynb](NoSQL_setup.ipynb)
 #### Part 1: Database and Jupyter Notebook Set Up
 We used `mongoimport` in Anaconda Prompt to load `establishments.json` into MongoDB, then used `pymongo` to import database into a Jupyter notebook.
 #### Part 2: Update the Database
 We used `pymongo` to make changes to the database.
-## Data Analysis: [NoSQL_analysis.ipynb](NoSQL_analysis.ipynb)
+### Data Analysis: [NoSQL_analysis.ipynb](NoSQL_analysis.ipynb)
 #### Part 3: Exploratory Analysis
 We used `pymongo` to perform queries, then used `pandas` to display results as a dataframe.
 ## References
